@@ -25,3 +25,5 @@ JobRecommendationServer-main/src/main/ml/venv/
 venv/
 __pycache__/
 *.pyc
+
+.env.render
