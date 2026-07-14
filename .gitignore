@@ -1,0 +1,27 @@
+# Log files
+*.log
+hs_err_pid*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Frontend dependency & build dirs
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Backend local database and build files
+JobRecommendationServer-main/db/
+JobRecommendationServer-main/target/
+JobRecommendationServer-main/.mvn/wrapper/maven-wrapper.jar
+JobRecommendationServer-main/src/main/resources/application-local.properties
+
+# Python virtual environments
+JobRecommendationServer-main/src/main/ml/.venv/
+JobRecommendationServer-main/src/main/ml/venv/
+.venv/
+venv/
+__pycache__/
+*.pyc

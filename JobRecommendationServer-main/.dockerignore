@@ -1,0 +1,10 @@
+.git
+target/
+.idea
+*.iml
+*.iws
+*.ipr
+.mvn/wrapper/maven-wrapper.jar
+__pycache__/
+*.pyc
+.env
